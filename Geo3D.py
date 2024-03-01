@@ -112,7 +112,7 @@ def Bresenham(image, x0: int, y0: int, x1: int, y1: int, color: tuple = (255, 25
 dots = []
 figures = []
 
-with open("hum.obj") as file:
+with open("shuttle.obj") as file:
     info = file.read().split('\n')
 
     for line in info:

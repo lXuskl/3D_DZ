@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>8f84251d-1caf-476b-8517-a44d7b48d483</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>SobelFilter.py</StartupFile>
+    <StartupFile>Brezenhem_circle.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>

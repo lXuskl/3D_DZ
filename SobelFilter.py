@@ -16,12 +16,12 @@ def sobel_filter(image, width, height):
     return gradient_magnitude
 
 if __name__ == '__main__':
-    with Image.open('sobel_example1.png') as im:
+    with Image.open('sobel3.png') as im:
         im_arr = im.convert('L').getdata()
         result = sobel_filter(im_arr, im.size[0], im.size[1])
 
         new_im = Image.new(mode="RGB", size=(im.size[0], im.size[1]))
         new_im.putdata(result)
         new_im = new_im.convert('L')
-        new_im.save('sobel_example2.png')
+        new_im.save('sobel_example3.png')
         new_im.close()

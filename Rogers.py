@@ -119,7 +119,7 @@ def is_visible(dots, fig: list):
 dots = []
 figures = []
 
-with open("hum.obj") as file:
+with open("octahedron.obj") as file:
     info = file.read().split('\n')
 
     for line in info:

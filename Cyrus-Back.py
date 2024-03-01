@@ -69,8 +69,8 @@ def plot_clipped_segments(ax, segments, clip_polygon):
 
 
 
-clip_polygon = [(1, 1), (4, 2), (4, 5), (2, 4), (1, 3)]
-segments = [((0, 2), (5, 2)), ((2, 0), (2, 5)), ((0, 0), (5, 5)), ((1, 4), (3, 2))]
+clip_polygon = [(1, 1), (3, 2), (4, 5), (5, 4), (5, 3)]
+segments = [((0, 1), (5, 2)), ((2, 1), (2, 3)), ((0, 0), (5, 2)), ((1, 5), (3, 2))]
 
 fig, ax = plt.subplots()
 

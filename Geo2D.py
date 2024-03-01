@@ -89,7 +89,7 @@ dots = []
 figures = []
 doto = []
 
-with open("shuttle.obj") as file:
+with open("sofa.obj") as file:
     info = file.read()
     info = info.split('\n')
 

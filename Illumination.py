@@ -78,8 +78,8 @@ def draw_triangle(ABC, L, w, h, kl=1):
                 img.putpixel((j, i), (il, il, il)) 
 
 A = Point(0, 0, 0)
-B = Point(50, 100, 30)
-C = Point(100, 50, 10)
+B = Point(50, 100, 200)
+C = Point(100, 20, 100)
 
 A1 = Point(150, 150, 0)
 
@@ -91,7 +91,7 @@ print(is_in(f, -10, 10))
 
 img = Image.new('RGB', (200, 200))
 
-draw_triangle(f, L, 100, 100, 5)
-draw_triangle(f1, L, 100, 100, 5)
+draw_triangle(f, L, 100, 150, 15)
+draw_triangle(f1, L, 100, 100, 15)
 
 img.save("light.png")
